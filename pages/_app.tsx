@@ -5,12 +5,12 @@ import { AudioPlayerProvider } from '../src/provider/audio-player';
 // import PageLayout from '../src/layouts/page-layout';
 import { ThemeProvider } from 'next-themes';
 import { AppWeb3Provider } from '../src/provider/app-web3';
-import { ThirdwebProvider } from '@3rdweb/react';
+import { ThirdwebProvider } from "@3rdweb/react";
 import { NextPage } from 'next';
 import { ReactElement, ReactNode } from 'react';
 import { ToastContainer } from 'react-toastify';
 import { RinkeByChainID } from '../src/constants';
-import '../styles/globals.css';
+import '../styles/globals.scss';
 
 type NextPageWithLayout = NextPage & {
   getLayout?: (page: ReactElement) => ReactNode;
