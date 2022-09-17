@@ -26,14 +26,10 @@ https://thirdweb-hackathon-ui.vercel.app/
 Clone the project
 
 ```bash
-  git clone https://github.com/indie-strawhats/thirdweb-hackathon-ui.git
+  git clone https://github.com/Darshancodes/Audify
 ```
 
 Go to the project directory
-
-```bash
-  cd thirdweb-hackathon-ui
-```
 
 Install dependencies
 
@@ -55,10 +51,8 @@ We are using RinkeBy TestNet. If you want to use any other chain or network, the
 
 ## Author
 
--   [Indrajeet Nikam](https://github.com/indrajitbnikam)
+-   [Darshan](https://github.com/Darshancodes)
 
 ## Contributors
 
--   [Vishal Shingare](https://github.com/vishal-shingare)
--   [Ketan Shinde](https://github.com/KetanShindePro)
--   [Shubham Tarade](https://github.com/coder-shanks)
+-   [Aman Janwani](https://github.com/aman-janwani)
