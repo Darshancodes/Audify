@@ -9,7 +9,7 @@ const Header = () => (
       <div>
         <Link href="/" passHref>
           <a className="text-4xl font-bold glowing-text" style={{ fontFamily: 'Cookie, cursive' }}>
-            Audiobooks
+            Audify
           </a>
         </Link>
       </div>

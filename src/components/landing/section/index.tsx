@@ -13,11 +13,10 @@ interface SectionProps {
 
 const Section: FC<SectionProps> = ({ image, sectionHeading, textContent, imagePosition }) => {
   return (
-    <section className="text-gray-600 body-font">
+    <section className="text-gray-600 dark:text-zinc-300 body-font">
       <div
-        className={`container flex ${
-          imagePosition === 'right' ? 'md:flex-row-reverse' : 'md:flex-row'
-        } flex-col items-center px-5 mx-auto gap-20`}
+        className={`container flex ${imagePosition === 'right' ? 'md:flex-row-reverse' : 'md:flex-row'
+          } flex-col items-center px-5 mx-auto gap-20`}
       >
         <div className="w-5/6 h-full md:w-1/2">
           <ColorBlobWrapper blobSize="large">

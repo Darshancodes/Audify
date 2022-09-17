@@ -19,7 +19,7 @@ const PurchaseCard: FC<PurchaseCardProps> = ({ className, data, onPurchase }) =>
     <AudioCard
       {...data}
       className={className}
-      buttonName="Purchase"
+      buttonName="Buy"
       buttonHandle={onPurchase}
       nameHandle={handleName}
     />

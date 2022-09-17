@@ -11,6 +11,29 @@
   }
 }
 
+body::-webkit-scrollbar,
+.hideScrollBar::-webkit-scrollbar {
+    width: 6px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #c31ff4;
+    border: 3px solid var(--navy);
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background: rgb(26, 26, 26) !important;
+}
+
+.hideScrollBar::-webkit-scrollbar-thumb {
+    display: none;
+}
+
+.hideScrollBar::-webkit-scrollbar-track {
+    display: none;
+}
+
 .glowing-text {
   background: linear-gradient(45deg, #ffd33d, #ea4aaa 33%, #b34bff 66%, #01feff);
 
