@@ -8,7 +8,7 @@ An Audible like platform built with Next.js, Tailwind and ThirdWeb
 -   Purchase, Play & Gift Audiobooks
 
 ## Demo
-
+https://www.loom.com/share/9ce69d084076438b8f64809d77f273d2
 
 ## Folder Structure
 
