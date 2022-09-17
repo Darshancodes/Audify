@@ -9,7 +9,6 @@ An Audible like platform built with Next.js, Tailwind and ThirdWeb
 
 ## Demo
 
-https://thirdweb-hackathon-ui.vercel.app/
 
 ## Folder Structure
 
